@@ -365,7 +365,7 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  background: url(images/bg-home-header-ie.png);
+  background: url(../img/bg-home-header-ie.png);
   background: rgba(0, 0, 0, 0.25);
 }
 
@@ -380,13 +380,13 @@ main {
 }
 
 .m1 {
-  background: url(images/bg-m1.jpg) repeat-x 50% 0;
+  background: url(../img/bg-m1.jpg) repeat-x 50% 0;
   min-height: 300px;
   padding: 35px 0 0;
 }
 
 .home .m1 {
-  background: url(images/bg-m1-home.png) no-repeat 100% 0;
+  background: url(../img/bg-m1-home.png) no-repeat 100% 0;
   min-height: 300px;
   padding: 50px 0 0;
 }
@@ -841,7 +841,7 @@ main {
     &:after {
       position: absolute;
       content: "";
-      background: url(images/sprite.png) no-repeat -9999px;
+      background: url(../img/sprite.png) no-repeat -9999px;
       width: 25px;
       height: 25px;
       top: 50%;
@@ -884,7 +884,7 @@ main {
   &:after {
     width: 30px;
     height: 25px;
-    background: url(images/sprite.png) no-repeat -9999px;
+    background: url(../img/sprite.png) no-repeat -9999px;
     left: 16px;
     top: 0;
     bottom: 0;
@@ -1336,7 +1336,7 @@ main {
         display: block;
         width: 20px;
         height: 20px;
-        background: url(images/sprite.png) no-repeat;
+        background: url(../img/sprite.png) no-repeat;
         background-position: -40px -25px;
       }
 
@@ -1852,7 +1852,7 @@ i {
     margin-right: 10px !important;
     width: 25px;
     height: 25px;
-    background: url(images/sprite.png) no-repeat -9999px;
+    background: url(../img/sprite.png) no-repeat -9999px;
   }
 
   &.ico-support {
@@ -1977,7 +1977,7 @@ i {
       span:after {
         position: absolute;
         content: "";
-        background: url(images/sprite.png) no-repeat -15px -10px;
+        background: url(../img/sprite.png) no-repeat -15px -10px;
         width: 20px;
         height: 15px;
         left: 0;
@@ -2203,7 +2203,7 @@ i {
   &:after {
     position: absolute;
     content: "";
-    background: url(images/sprite.png) no-repeat -155px -25px;
+    background: url(../img/sprite.png) no-repeat -155px -25px;
     width: 20px;
     height: 20px;
     left: 0;
@@ -2231,7 +2231,7 @@ i {
     &:before {
       position: absolute;
       content: "";
-      background: url(images/sprite.png) no-repeat -55px -10px;
+      background: url(../img/sprite.png) no-repeat -55px -10px;
       width: 15px;
       height: 15px;
       left: 0;
@@ -2490,7 +2490,7 @@ i {
     top: 0;
     bottom: 0;
     margin: auto;
-    background: url(images/sprite.png) no-repeat -9999px;
+    background: url(../img/sprite.png) no-repeat -9999px;
   }
 
   &.nav-control:after {
@@ -2677,7 +2677,7 @@ i {
         &:before {
           position: absolute;
           content: "";
-          background: url(images/sprite.png) no-repeat 0 -10px;
+          background: url(../img/sprite.png) no-repeat 0 -10px;
           width: 15px;
           height: 15px;
           left: 0;
@@ -3288,7 +3288,7 @@ i {
     &:after {
       position: absolute;
       content: "";
-      background: url(images/sprite.png) no-repeat -9999px;
+      background: url(../img/sprite.png) no-repeat -9999px;
       width: 25px;
       height: 20px;
       left: 0;
@@ -3450,7 +3450,7 @@ i {
     height: 35px;
     text-indent: -9999px;
     overflow: hidden;
-    background: url(images/sprite.png) no-repeat -9999px;
+    background: url(../img/sprite.png) no-repeat -9999px;
     margin: 0 7px;
   }
 
@@ -3853,7 +3853,7 @@ footer .social {
       &:before {
         position: absolute;
         content: "";
-        background: url(images/sprite.png) no-repeat -9999px;
+        background: url(../img/sprite.png) no-repeat -9999px;
         width: 70px;
         height: 65px;
         top: 0;
@@ -4646,7 +4646,7 @@ footer .line {
     overflow: hidden;
     text-indent: -9999px;
     z-index: 9999;
-    background: url(images/sprite.png) no-repeat -175px -25px;
+    background: url(../img/sprite.png) no-repeat -175px -25px;
   }
 
   &.out-of-window .close {

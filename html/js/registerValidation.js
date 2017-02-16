@@ -1,0 +1,2 @@
+function submitRegisterForm(){$("#socialNetworkError").hide();var i=!0;isUniqueEmail()?$("#uniqueEmailError").hide():(i=!1,$("#actionForm").valid(),$("#uniqueEmailError").show()),i&&$("#actionForm").valid()&&(openPopupManual("popup-loading",.8,!0),$("#actionForm").submit())}function isUniqueEmail(){return isUniqueEmailRequest($("#Email").val())}function isUniqueEmailRequest(i){var a=!1;return $.ajax({type:"POST",url:"/Account/IsUniqueEmail",dataType:"json",data:"&email="+i,async:!1,success:function(i){a=i}}),a}
+//# sourceMappingURL=maps/registerValidation.js.map
