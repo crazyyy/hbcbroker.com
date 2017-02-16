@@ -1,0 +1,10 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.hbcbroker.com	TRUE	/	FALSE	1999999999	__cfduid	d6892a9b1045f9be90ffb16e7247bd3301487265513
+www.hbcbroker.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	w4naq3suar01z5p1sq35zff0
+www.hbcbroker.com	TRUE	/	FALSE	1999999999	__RequestVerificationToken	GWhCLREkGAlMUDkHoGdg8RtjCk262q6cFA4kg9B3rYubzfX5N6pju-cIo6woQJSVByi_-k45KUvl5TBCL7jnRsAcukw1
+.google.com	TRUE	/	FALSE	1999999999	NID	97=dEnVKu-kmngxK25VKQSlh8GXbjJQOAtHW7iBzVePdFB9DvN4YeJLzBp-XzzkTBZ7EV31-WCByoTisHfzE-IiXWCj8sdGeIek2cT5331gUaS7J7tnFFSrW_XVbCwGMAJp
+www.hbcbroker.com	TRUE	/	FALSE	1999999999	CmsPixelRefreshCookieHead	/news
+www.hbcbroker.com	TRUE	/	FALSE	1999999999	CmsPixelRefreshCookieBody	/news
+www.hbcbroker.com	TRUE	/	FALSE	1999999999	CookieCurrentCulture	ru-RU
+
