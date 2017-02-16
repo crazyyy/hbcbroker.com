@@ -1,3 +1,0 @@
-
-        $("#PhoneNumber").numeric();
-    
