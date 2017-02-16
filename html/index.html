@@ -1,34 +1,34 @@
-<!DOCTYPE html>
-<html><head>
-
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-      <meta charset="utf-8">
+<html>
+<head>
+    <title>HBC Broker</title>
+    <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title></title>
-
-<link type="image/x-icon" href="favicon.ico" rel="icon">
-<link href="favicon.ico" rel="shortcut icon">
-
-
-<link href="css/css_002.css" rel="stylesheet" type="text/css">
-<link href="css/css.css" rel="stylesheet" type="text/css">
-<link href="css/css_003.css" rel="stylesheet" type="text/css">
+<meta name="keywords" content="HBC Broker">
+<link type="image/x-icon" href="assets/favicon.ico" rel="icon">
+<link href="assets/favicon.ico" rel="shortcut icon">
+<link href="assets/css" rel="stylesheet" type="text/css">
+<link href="assets/css" rel="stylesheet" type="text/css">
+<link href="assets/css" rel="stylesheet" type="text/css">
 <link type="text/css" href="css/Site.css" rel="stylesheet">
-<link rel="stylesheet" href="css/animate.css">
-
-
+<link rel="stylesheet" href="css/animate.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 <!--[if lt IE 9]>
     <link rel="stylesheet" href="/Content/lt9.css" />
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 <!--[if IE 9]><link rel="stylesheet" href="/Content/ie9.css"/><![endif]-->
+<script src="js/inline_5.js"></script>
 
+    <script src="js/jquery.liMarquee.js"></script>
+<script src="js/main-home.js"></script>
 
-
-
+    
 </head>
 <body class="home ">
     <div id="wrapper">
@@ -38,11 +38,11 @@
             <div class="top-panel">
     <ul>
             <li class="login-nav">
-				<a href="https://my.hbcbroker.com/ru-ru/login.aspx" class="lgn"><span>login</span></a>
+				<a href="https://my.hbcbroker.com/en-us/login.aspx" class="lgn"><span>login</span></a>
 				<div class="drop">
 					<div class="direction-area">
-<form action="/ru/login" class="form" id="loginForm" method="post" role="form">						    <div class="row">
-                                <input data-val="true" data-val-localizedrequired="Please re-enter User Name" data-val-localizedrequired-otherpropertyname="ProjectManager" id="UserName" name="UserName" placeholder="Login" type="text">
+<form action="/login" class="form" id="loginForm" method="post" role="form">						    <div class="row">
+                                <input data-val="true" data-val-localizedrequired="Please re-enter User Name" data-val-localizedrequired-otherpropertyname="ProjectManager" id="UserName" name="UserName" placeholder="Login" type="text" value="">
                                 <span class="error"> <span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span></span>
 						    </div>
 						    <div class="row">
@@ -51,12 +51,12 @@
 						    </div>
 						    <div class="row mt10 mb5">
 						        <div class="radio-check radio-check2 fl-r reversed">
-						            <input id="remember-check" type="checkbox">
+						            <input type="checkbox" id="remember-check">
 						            <label for="remember-check">Remember me</label>
-						            <input value="True" name="RememberMe" id="RememberMe" type="hidden">
-						            <input value="/" name="returnUrl" id="returnUrl" type="hidden">
+						            <input type="hidden" value="True" name="RememberMe" id="RememberMe">
+						            <input type="hidden" value="/" name="returnUrl" id="returnUrl">
 						        </div>
-                                <a href="http://www.hbcbroker.com/ru/forgot-password" class="forgot fl-l reversed">Forgot password?</a>
+                                <a href="/forgot-password" class="forgot fl-l reversed">Forgot password?</a>
 						    </div>
 						    <div style="display: none;" class="error" id="loginError">
 						        The user name or password provided is incorrect
@@ -68,13 +68,13 @@
 				</div>
 			</li>
 			<li>
-                <a href="http://my.hbcbroker.com/ru-ru/signup.aspx">Open Account</a>
+                <a href="http://my.hbcbroker.com/en-us/signup.aspx">Open Account</a>
 			</li>
         <li class="lang-nav">
-            <a href="#" class="link lng"><img src="img/c15b05d0-0359-40d1-a67e-fc1a3c24d45c" alt="Russian" title="Russian"><span>Russian</span></a>
+            <a href="#" class="link lng"><img src="assets/cfa9ac68-a546-4aa0-a20c-34fb40e40818" alt="English" title="English"><span>English</span></a>
 <div class="drop"><div class="direction-area"><ul>
-<li><a href="http://www.hbcbroker.com/ru/SKUtils/SwitchLanguage?idl=en-US&amp;url=http%3A%2F%2Fwww.hbcbroker.com%2Fru%2FHome"><img src="img/cfa9ac68-a546-4aa0-a20c-34fb40e40818" alt="en" title="en"><span>en</span></a></li>
-<li class="active"><a href="http://www.hbcbroker.com/ru/SKUtils/SwitchLanguage?idl=ru-RU&amp;url=http%3A%2F%2Fwww.hbcbroker.com%2Fru%2FHome"><img src="img/c15b05d0-0359-40d1-a67e-fc1a3c24d45c" alt="ru" title="ru"><span>ru</span></a></li>
+<li class="active"><a href="/SKUtils/SwitchLanguage?idl=en-US&url=http%3A%2F%2Fwww.hbcbroker.com%2F"><img src="assets/cfa9ac68-a546-4aa0-a20c-34fb40e40818" alt="en" title="en"><span>en</span></a></li>
+<li><a href="/SKUtils/SwitchLanguage?idl=ru-RU&url=http%3A%2F%2Fwww.hbcbroker.com%2F"><img src="assets/c15b05d0-0359-40d1-a67e-fc1a3c24d45c" alt="ru" title="ru"><span>ru</span></a></li>
 </ul></div></div>
 
         </li>
@@ -82,16 +82,16 @@
 </div>
 
 
-            <div class="top-nav"><ul><li><a href="http://www.hbcbroker.com/ru/">Home</a></li><!--<li><a href="/ru/faq">FAQ</a></li>--><li><a href="http://www.hbcbroker.com/ru/contact-us">Contact Us</a></li><li><a href="#">Research</a></li></ul></div>
+            <div class="top-nav"><ul><li><a href="/">Home</a></li><!--<li><a href="/faq">FAQ</a></li>--><li><a href="/contact-us">Contact Us</a></li><li><a href="#">Research</a></li></ul></div>
         </div>
     </div>
     <div class="main-holder logo-holder">
         <strong class="logo">
-            <a href="http://www.hbcbroker.com/">HBC Broker</a>
+            <a href="/">HBC Broker</a>
         </strong>
         <div class="clearfix">
             <nav id="nav">
-                <ul><li><div class="drop-hold"><a href="http://www.hbcbroker.com/ru#"><span>Торговля</span></a><div class="drop"><ul><li><a href="https://binary.hbcbroker.com/">Binary Platform</a></li><li><a href="https://webtrader.hbcbroker.com/">Forex Platform</a></li></ul></div></div></li><li><div class="drop-hold"><a href="http://www.hbcbroker.com/ru/how-to-trade"><span>Руководство</span></a><div class="drop"><ul><li><a href="http://www.hbcbroker.com/ru/make-a-deposit">Пополнение торгового счета</a></li><li><a href="http://www.hbcbroker.com/ru/make-a-withdrawal">Вывод средств</a></li><li><a href="http://www.hbcbroker.com/ru/trading-instruments">Торговые инструменты</a></li><li><a href="http://www.hbcbroker.com/ru/option-types">Типы опционов</a></li><li><a href="http://www.hbcbroker.com/ru/trading-account-types">Виды торговых счетов</a></li><li><a href="http://www.hbcbroker.com/ru/mobile-trading">Мобильная торговля</a></li></ul></div></div></li><li><div class="drop-hold"><a href="http://www.hbcbroker.com/ru/daily-news"><span>Новости</span></a><div class="drop"><ul><li><a href="http://www.hbcbroker.com/ru/technical-analysis">Технический анализ</a></li><li><a href="http://www.hbcbroker.com/ru/economic-calendar">Экономический календарь</a></li><li><a href="http://www.hbcbroker.com/ru/live-air">Прямой эфир</a></li><li><a href="http://www.hbcbroker.com/ru/news">Ежедневные новости</a></li></ul></div></div></li><li><div class="drop-hold"><a href="http://www.hbcbroker.com/ru/education-center"><span>Образовательный центр</span></a><div class="drop"><ul><li><a href="http://www.hbcbroker.com/ru/glossary">Глоссарий</a></li><li><a href="http://www.hbcbroker.com/ru/webinars">Вебинары</a></li><li><a href="http://www.hbcbroker.com/ru/video-tutorials">Видеоуроки</a></li><li><a href="http://www.hbcbroker.com/ru/trading-for-beginners">Начинающему трейдеру</a></li></ul></div></div></li><li><div class="drop-hold"><a href="http://www.hbcbroker.com/ru/about-us"><span>О компании</span></a><div class="drop"><ul><li><a href="http://www.hbcbroker.com/ru/mission">История и миссия компании</a></li><li><a href="http://www.hbcbroker.com/ru/terms-conditions">Условия и соглашения</a><div class="drop"><ul><li><a href="http://www.hbcbroker.com/ru/access-to-platform">Условия предоставления<br> доступа к торговой платформе</a></li><li><a href="http://www.hbcbroker.com/ru/privacy-policy">Политика конфиденциальности</a></li><li><a href="http://www.hbcbroker.com/ru/bonus-policy">Бонусная политика компании</a></li><li><a href="http://www.hbcbroker.com/ru/risk-warning">Предупреждение о рисках</a></li></ul></div></li><li><a href="http://www.hbcbroker.com/ru/contact-us">Контакты</a></li><li><a href="http://www.hbcbroker.com/ru/kyc-policy">KYC Policy</a></li><li><a href="http://www.hbcbroker.com/ru/aml-policy">AML Policy</a></li><li><a href="http://www.hbcbroker.com/Content/Images/Vanuatu-license.pdf" target="_blank">Регуляция</a><div class="drop"><ul><li><a href="http://www.hbcbroker.com/Content/Images/Vanuatu-license.pdf" target="_blank">Регуляция Vanuatu</a></li></ul></div></li></ul></div></div></li></ul>
+                <ul><li><div class="drop-hold"><a href="/#"><span>Trading</span></a><div class="drop"><ul><li><a href="https://binary.hbcbroker.com/">Binary Platform</a></li><li><a href="https://webtrader.hbcbroker.com/">Forex Platform</a></li></ul></div></div></li><li><div class="drop-hold"><a href="/how-to-trade"><span>How To Trade</span></a><div class="drop"><ul><li><a href="/make-a-deposit">Make A Deposit</a></li><li><a href="/make-a-withdrawal">Make A Withdrawal</a></li><li><a href="/trading-instruments">Trading Instruments</a></li><li><a href="/option-types">Option Types</a></li><li><a href="/trading-account-types">Trading Account Types </a></li><li><a href="/mobile-trading">Mobile trading</a></li></ul></div></div></li><li><div class="drop-hold"><a href="/daily-news"><span>News</span></a><div class="drop"><ul><li><a href="/technical-analysis">Technical analysis</a></li><li><a href="/economic-calendar">Economic Calendar</a></li><li><a href="/live-air">Live air</a></li><li><a href="/news">Daily news</a></li></ul></div></div></li><li><div class="drop-hold"><a href="/education-center"><span>Education center</span></a><div class="drop"><ul><li><a href="/glossary">Glossary</a></li><li><a href="/webinars"> Webinars</a></li><li><a href="/video-tutorials">Video tutorials</a></li><li><a href="/trading-for-beginners">Trading for Beginners</a></li></ul></div></div></li><li><div class="drop-hold"><a href="/about-us"><span>About us</span></a><div class="drop"><ul><li><a href="/mission">History, Mission & Vision</a></li><li><a href="/terms-conditions">Terms and Conditions</a><div class="drop"><ul><li><a href="/access-to-platform">Terms of access to<br> the trading platform</a></li><li><a href="/privacy-policy">Privacy Policy</a></li><li><a href="/bonus-policy">Bonus Policy</a></li><li><a href="/risk-warning">Risk Warning</a></li></ul></div></li><li><a href="/contact-us">Contact Us</a></li><li><a href="/kyc-policy">KYC Policy</a></li><li><a href="/aml-policy">AML Policy</a></li><li><a href="http://www.hbcbroker.com/Content/Images/Vanuatu-license.pdf" target="_blank">Regulation</a><div class="drop"><ul><li><a href="http://www.hbcbroker.com/Content/Images/Vanuatu-license.pdf" target="_blank">Vanuatu Regulation</a></li></ul></div></li></ul></div></div></li></ul>
             </nav>
         </div>
     </div>
@@ -100,7 +100,7 @@
     <ul>
         <li><a href="#" class="mb-control nav-control">Navigation</a></li>
         <li><a href="#" class="mb-control tools-control">Tools</a></li>
-            <li><a href="https://my.hbcbroker.com/ru-ru/login.aspx" class="mb-control login-control">Login</a></li>
+            <li><a href="https://my.hbcbroker.com/en-us/login.aspx" class="mb-control login-control">Login</a></li>
     </ul>
 </nav>
 <div class="mb-drop nav-drop">
@@ -112,8 +112,8 @@
 
 </div>
     <div class="mb-drop login-drop">
-<form action="/ru/login" class="form" id="mobileLoginForm" method="post" role="form">		    <div class="row">
-		        <input data-val="true" data-val-localizedrequired="Please re-enter User Name" data-val-localizedrequired-otherpropertyname="ProjectManager" id="UserNameMobile" name="UserName" placeholder="Login" type="text">
+<form action="/login" class="form" id="mobileLoginForm" method="post" role="form">		    <div class="row">
+		        <input data-val="true" data-val-localizedrequired="Please re-enter User Name" data-val-localizedrequired-otherpropertyname="ProjectManager" id="UserNameMobile" name="UserName" placeholder="Login" type="text" value="">
                 <span class="error"> <span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span></span>
 		    </div>
 		    <div class="row">
@@ -122,12 +122,12 @@
 		    </div>
 		    <div class="row mt10 mb5">
 		        <div class="radio-check radio-check2 fl-r reversed">
-		            <input id="mobile-remember-check" type="checkbox">
+		            <input type="checkbox" id="mobile-remember-check">
 		            <label for="mobile-remember-check"><span>Remember me</span></label>
 		        </div>
-                <a class="forgot fl-l reversed" href="http://www.hbcbroker.com/ru/forgot-password">Forgot password?</a>
-		        <input value="True" name="RememberMe" id="MobileRememberMe" type="hidden">
-		        <input value="/" name="returnUrl" id="MobilereturnUrl" type="hidden">
+                <a class="forgot fl-l reversed" href="/forgot-password">Forgot password?</a>
+		        <input type="hidden" value="True" name="RememberMe" id="MobileRememberMe">
+		        <input type="hidden" value="/" name="returnUrl" id="MobilereturnUrl">
 		    </div>
 		    <div style="display: none;" class="error" id="MobileloginError">
 		        The user name or password provided is incorrect
@@ -137,7 +137,7 @@
 		    </div>
 </form>	</div>
 
-
+	
     </div>
 </header>
         <main>
@@ -145,19 +145,19 @@
                 <img alt="" src="img/img-hp-welcome00.png"><div class="text wow fadeInUp animated"><p>welcome to <strong class="font01"><strong>HBC</strong>Broker</strong></p></div>
 <div class="quick-form-hold wow fadeInLeft animated hidden-sm hidden-xs">
     <strong>Account registration</strong>
-<form action="https://reg.hbcbroker.com" class="form" id="actionForm" method="post" role="form"><input id="lang" name="lang" value="ru" type="hidden">        <fieldset>
+<form action="https://reg.hbcbroker.com" class="form" id="actionForm" method="post" role="form"><input id="lang" name="lang" type="hidden" value="en">        <fieldset>
             <div class="row">
-                <input data-val="true" data-val-lengthvalidator="Must be at least 1 and no more than 20 characters long." data-val-lengthvalidator-otherpropertyname="1,20" data-val-localizedrequired="Please re-enter First Name" data-val-localizedrequired-otherpropertyname="ProjectManager" data-val-regularexpression="FirstName should contain letters" data-val-regularexpression-otherpropertyname="^[A-Za-z]*$" id="FirstName" name="FirstName" placeholder="FirstName" type="text">
-                <span class="error"><span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span></span>
+                <input data-val="true" data-val-lengthvalidator="Must be at least 1 and no more than 20 characters long." data-val-lengthvalidator-otherpropertyname="1,20" data-val-localizedrequired="Please re-enter First Name" data-val-localizedrequired-otherpropertyname="ProjectManager" data-val-regularexpression="FirstName should contain letters" data-val-regularexpression-otherpropertyname="^[A-Za-z]*$" id="FirstName" name="FirstName" placeholder="FirstName" type="text" value="">
+                <span class="error"><span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span></span> 
             </div>
             <div class="row">
-                <input data-val="true" data-val-lengthvalidator="Must be at least 1 and no more than 20 characters long." data-val-lengthvalidator-otherpropertyname="1,20" data-val-localizedrequired="Please re-enter Last Name" data-val-localizedrequired-otherpropertyname="ProjectManager" data-val-regularexpression="FirstName should contain letters" data-val-regularexpression-otherpropertyname="^[A-Za-z]*$" id="LastName" name="LastName" placeholder="LastName" type="text">
-                <span class="error"><span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span></span>
+                <input data-val="true" data-val-lengthvalidator="Must be at least 1 and no more than 20 characters long." data-val-lengthvalidator-otherpropertyname="1,20" data-val-localizedrequired="Please re-enter Last Name" data-val-localizedrequired-otherpropertyname="ProjectManager" data-val-regularexpression="FirstName should contain letters" data-val-regularexpression-otherpropertyname="^[A-Za-z]*$" id="LastName" name="LastName" placeholder="LastName" type="text" value="">
+                <span class="error"><span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span></span> 
             </div>
             <div class="row">
-                <input data-val="true" data-val-localizedemail="Please re-enter Email" data-val-localizedemail-otherpropertyname="ProjectManager" data-val-localizedrequired="Please re-enter Email" data-val-localizedrequired-otherpropertyname="ProjectManager" id="Email" name="Email" placeholder="Email" type="text">
+                <input data-val="true" data-val-localizedemail="Please re-enter Email" data-val-localizedemail-otherpropertyname="ProjectManager" data-val-localizedrequired="Please re-enter Email" data-val-localizedrequired-otherpropertyname="ProjectManager" id="Email" name="Email" placeholder="Email" type="text" value="">
                 <span id="uniqueEmailError" class="error" style="display: none;">This Email is already registered</span>
-                <span class="error"><span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span></span>
+                <span class="error"><span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span></span> 
             </div>
             <div class="row">
                 <select data-val="true" data-val-localizedrequired="Please re-enter Country" data-val-localizedrequired-otherpropertyname="ProjectManager" id="Country" name="Country" onchange="getDialingCode()"><option selected="selected" value="">Select...</option>
@@ -397,23 +397,23 @@
 <option value="ZM">Zambia</option>
 <option value="ZW">Zimbabwe</option>
 </select>
-                <span class="error"><span class="field-validation-valid" data-valmsg-for="Country" data-valmsg-replace="true"></span></span>
+                <span class="error"><span class="field-validation-valid" data-valmsg-for="Country" data-valmsg-replace="true"></span></span> 
             </div>
             <div class="row">
                 <div class="formitems phone-number">
                     <div class="formitem custom-col-1">
-                        <input name="phoneCountryCode" data-val="true" data-val-localizedrequired="Please re-enter Phone Area Code" data-val-localizedrequired-otherpropertyname="ProjectManager" data-val-regularexpression="Phone Area Code should contain only numbers" data-val-regularexpression-otherpropertyname="^\d+$" id="PhoneAreaCode" type="text">
+                        <input name="phoneCountryCode" data-val="true" data-val-localizedrequired="Please re-enter Phone Area Code" data-val-localizedrequired-otherpropertyname="ProjectManager" data-val-regularexpression="Phone Area Code should contain only numbers" data-val-regularexpression-otherpropertyname="^\d+$" id="PhoneAreaCode" type="text" value="">
                     </div>
                     <div class="custom-offset-1">
                         <div class="formitem">
-                            <input data-val="true" data-val-localizedrequired="Please re-enter Phone Number" data-val-localizedrequired-otherpropertyname="ProjectManager" data-val-regularexpression="Phone Area Code should contain only numbers" data-val-regularexpression-otherpropertyname="^\d+$" id="PhoneNumber" name="PhoneNumber" placeholder="Phone Number" type="text">
+                            <input data-val="true" data-val-localizedrequired="Please re-enter Phone Number" data-val-localizedrequired-otherpropertyname="ProjectManager" data-val-regularexpression="Phone Area Code should contain only numbers" data-val-regularexpression-otherpropertyname="^\d+$" id="PhoneNumber" name="PhoneNumber" placeholder="Phone Number" type="text" value="">
                         </div>
                     </div>
                 </div>
-                <span class="error"><span class="field-validation-valid" data-valmsg-for="PhoneAreaCode" data-valmsg-replace="true"></span></span>
-                <span class="error"><span class="field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span></span>
+                <span class="error"><span class="field-validation-valid" data-valmsg-for="PhoneAreaCode" data-valmsg-replace="true"></span></span> 
+                <span class="error"><span class="field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span></span> 
             </div>
-            <input id="referral" name="referral" value="" type="hidden">
+            <input id="referral" name="referral" type="hidden" value="">
             <div class="agree-text font-sz12">
                 By registering you agree to the terms and conditions
             </div>
@@ -423,19 +423,19 @@
         </fieldset>
 </form></div>
 <div class="ta-center hidden-lg hidden-md wow fadeInLeft animated">
-    <a href="http://www.hbcbroker.com/ru/real" class="button btn-type02 btn-font-m btn-block"><span>Open Account</span></a>
+    <a href="/real" class="button btn-type02 btn-font-m btn-block"><span>Open Account</span></a>
 </div>            </div>
             <div class="quote__container hidden-xs hidden-sm">&nbsp;</div>
             <div class="m1">
+                
 
 
-
-<div class="main-holder"><div class="hp-ttl wow fadeInDown animated"><h2><span>Наши <span class="color01">преимущества</span></span></h2></div><div class="hp-features wow fadeInUpBig"><div class="item"><div class="item-fees">Без<br>Комиссии</div><a class="text" href="#popup"> <strong>Без<br>Комиссии</strong><p>Процесс торговли понятен и прост. С трейдера <b>не взимается</b> никаких скрытых платежей и комиссий </p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-regulation">Безопасность и<br>регулируемость</div><a id="text02" class="text" href="#popup"><strong>Безопасность и<br>регулируемость</strong><p>HBC Broker - регулируемый брокер. Трейдер <b>защищен</b> на каждом этапе работы</p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-tutorials">Обучающие<br>видео</div><a id="text03" class="text" href="#popup"><strong>Обучающие<br>видео</strong><p>Как работать с платформой доходчиво объясняет обучающее видео</p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-research">Исследования<br>рынка</div><a id="text04" class="text" href="#popup"><strong>Исследования<br>рынка</strong><p>Самые <b>актуальные обзоры</b> и <b>профессиональный анализ</b> от лучших специалистов компании HBC Broker. Информация - залог успешной торговли!</p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-service">Поддержка<br>клиентов</div><a id="text05" class="text" href="#popup"><strong>Поддержка<br>клиентов</strong><p>HBC Broker сопровождает клиентов на каждом этапе работы. <b>Ваш профит - наша цель!</b></p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-calendar">Экономический<br>Календарь</div><a id="text06" class="text" href="#popup"><strong>Экономический<br>Календарь</strong><p>Незаменимый помощник каждого трейдера. Пусть экономический календарь станет и Вашим каждодневным спутником!</p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-accounts">Доверительное<br>управление</div><a id="text07" class="text" href="#popup"><strong>Доверительное<br>управление</strong><p>Делегируйте вопрос управления капиталом <b>признанным лидерам рынка</b>, профессионалам с многолетним стажем.</p><span class="line">&nbsp;</span></a></div></div><div class="hp-accounts"><div class="hp-ttl wow fadeInUp animated"><h2><span>Виды торговых <span class="color01">счетов</span></span></h2></div><div class="colsgrid colsgrid3"><div class="col-md-4"><div class="item item01 wow fadeInDown animated"><div class="heading"><h3><span>Серебряный счет</span></h3></div><div class="text"><ul><li>Размер вклада<br><b>$1,000 - $9,999</b></li><li>Торговля на <b>бинарных опционах</b></li><li>Персональный торговый аналитик</li><li>Сопровождение при управлении<br>капиталом и рисками</li><li>Подготовка <b>индивидуального</b> финансового плана</li></ul></div><div class="ta-center"><a class="button btn-sm btn-font-m" href="https://my.hbcbroker.com/ru-ru/signup.aspx"><span>Открыть счет</span></a></div></div></div><div class="col-md-4"><div class="item item02 wow fadeInUp animated"><div class="heading"><h3><span><span class="color02">Бриллиантовый</span> счет</span></h3></div><div class="text"><ul><li>Размер вклада<br>от <b>$50,000</b></li><li>Торговля на <b>бинарных оционах</b> и рынке <b>Форекс</b></li><li>Персональный торговый аналитик</li><li>Сопровождение при управлении<br>капиталом и рисками</li><li>Разработка <b>индивидуального</b> финансого плана</li><li>Составление <b>квартального<br>торгового</b> плана</li><li><b>Моментальный вывод</b> средств посредством банковских карт</li><li>Плавающие спреды</li></ul></div><div class="ta-center"><a class="button btn-sm btn-font-m" href="https://my.hbcbroker.com/ru-ru/signup.aspx"><span>Открыть счет</span></a></div></div></div><div class="col-md-4"><div class="item item03 wow fadeInDown animated"><div class="heading"><h3><span><span class="color03">Золотой</span> счет</span></h3></div><div class="text"><ul><li>Размер вклада<br><b>$10,000 - $49,999</b></li><li>Торговля на <b>бинарных опционах</b> и рынке <b>Форекс</b></li><li>Персональный торговый аналитик</li><li>Сопровождение при управлении<br>капиталом и рисками</li><li>Разработка <b>индивидуального</b> финансого плана</li><li>Фиксированные спреды<br>в 3 пункта на EURUSD</li></ul></div><div class="ta-center"><a class="button btn-sm btn-font-m" href="https://my.hbcbroker.com/ru-ru/signup.aspx"><span>Открыть счет</span></a></div></div></div></div></div></div>
+<div class="main-holder"><div class="hp-ttl wow fadeInDown animated"><h2><span>Our <span class="color01">features</span></span></h2></div><div class="hp-features wow fadeInUpBig"><div class="item"><div class="item-fees">No<br>Fees</div><a class="text" href="#popup"><strong>No<br>Fees</strong><p>he process of trading is clear and simple. There are <b>no hidden fees</b> or comissions for our traders</p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-regulation">Safety &amp;<br>Regulation</div><a id="text02" class="text" href="#popup"><strong>Safety &amp;<br>Regulation</strong><p>HBC Broker is a regulated broker. The trader is <b>protected</b> at every step</p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-tutorials">Video<br>Tutorials</div><a id="text03" class="text" href="#popup"><strong>Video<br>Tutorials</strong><p>How to work with the platform lucidly explains the training video</p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-research">Market<br>Research</div><a id="text04" class="text" href="#popup"><strong>Market<br>Research</strong><p>Most <b>actual reviews</b> and <b>professional analysis</b> from the best specialists of the company HBC Broker. The information is the key to successful trading!</p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-service">Customer<br>service</div><a id="text05" class="text" href="#popup"><strong>Customer<br>service</strong><p>HBC Broker support clients at each stage of the work. <b>Your profit is our goal!</b></p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-calendar">Finance<br>Calendar</div><a id="text06" class="text" href="#popup"><strong>Finance<br>Calendar</strong><p>An essential assistant of every trader. Let the <b>finance calendar</b> become your best friend!</p><span class="line">&nbsp;</span></a></div><div class="item"><div class="item-accounts">vip<br>accounts</div><a id="text07" class="text" href="#popup"><strong>vip<br>accounts</strong><p>Delegate <b>the asset managment</b> to the experts with years of experience</p><span class="line">&nbsp;</span></a></div></div><div class="hp-accounts"><div class="hp-ttl wow fadeInUp animated"><h2><span>Our <span class="color01">accounts</span></span></h2></div><div class="colsgrid colsgrid3"><div class="col-md-4"><div class="item item01 wow fadeInDown animated"><div class="heading"><h3><span>Silver Account</span></h3></div><div class="text"><ul><li>Deposit amount<br><b>$1,000 - $9,999</b></li><li><b>Binary Options</b> Trading</li><li>Personal trading analyst</li><li>Risk and asset<br>management support</li><li><b>Individual</b> Financial Plan</li></ul></div><div class="ta-center"><a class="button btn-sm btn-font-m" href="https://my.hbcbroker.com/en-us/signup.aspx"><span>Open Account</span></a></div></div></div><div class="col-md-4"><div class="item item02 wow fadeInUp animated"><div class="heading"><h3><span><span class="color02">Diamond</span> Account</span></h3></div><div class="text"><ul><li>Investment amount<br>From <b>$50,000</b></li><li><b>Forex</b> and <b>Binary<br>Options</b> Trading</li><li>Personal trading analyst</li><li>Risk and asset<br>management support</li><li><b>Individual</b> Financial Plan</li><li><b>Quarterly</b> trading plan</li><li><b>Rapid withdrawal</b><br>with MasterCard</li><li>Floating Spreads</li></ul></div><div class="ta-center"><a class="button btn-sm btn-font-m" href="https://my.hbcbroker.com/en-us/signup.aspx"><span>Open Account</span></a></div></div></div><div class="col-md-4"><div class="item item03 wow fadeInDown animated"><div class="heading"><h3><span><span class="color03">Gold</span> Account</span></h3></div><div class="text"><ul><li>Investment amount<br><b>$10,000 - $49,999</b></li><li><b>Forex</b> and <b>Binary<br>Options</b> Trading</li><li>Personal trading analyst</li><li>Risk and asset<br>management support</li><li><b>Individual</b> Financial Plan</li><li>3-pips EURUSD fixed spread</li></ul></div><div class="ta-center"><a class="button btn-sm btn-font-m" href="https://my.hbcbroker.com/en-us/signup.aspx"><span>Open Account</span></a></div></div></div></div></div></div>
 
 <div class="hp-markets">
     <div class="main-holder">
         <div class="colsgrid">
-            <div class="col-lg-4"><div class="hp-ttl-xs wow fadeInDown animated"><h2>Рыночные <span class="color01">котировки</span></h2></div><div class="wow flipInX animated"><div class="quote-grid-hold"><div class="quote__grid">&nbsp;</div></div></div></div>
+            <div class="col-lg-4"><div class="hp-ttl-xs wow fadeInDown animated"><h2>Market <span class="color01">rates</span></h2></div><div class="wow flipInX animated"><div class="quote-grid-hold"><div class="quote__grid">&nbsp;</div></div></div></div>
             <div class="col-lg-8">
                 <div class="hp-ttl-xs hp-ttl-xs2 wow fadeInUp animated">
                     <h2>Market <span class="color01">news</span></h2>
@@ -444,27 +444,27 @@
                     <div class="items">
                                 <div class="item">
                                     <h2>
-                                        <a href="http://www.hbcbroker.com/ru/news?id=%D0%BD%D0%B0-%D1%84%D0%BE%D0%BD%D0%B4%D0%BE%D0%B2%D1%8B%D1%85-%D1%80%D1%8B%D0%BD%D0%BA%D0%B0%D1%85-%D0%BF%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B0%D0%B5%D1%82%D1%81%D1%8F-%D1%80%D0%B0%D0%BB%D0%BB%D0%B8-276149">На фондовых рынках продолжается ралли</a>
+                                        <a href="/news?id=gold-futures-rally-for-2nd-day-as-dollar-slides-460388">Gold futures rally for 2nd day as dollar slides</a>
                                     </h2>
                                     <div class="news-info">
-                                        <em class="date">16.02.2017 12:05:19</em>
+                                        <em class="date">16/02/2017 14:54:30</em>
                                     </div>
                                     <div class="text">
-                                        <p>Investing.com – Фондовые рынки достигли рекордных отметок на оптимизме по поводу состояния мировой ...</p>
+                                        <p>  Gold prices added to overnight gains on Thursday, hitting a one-week high as the U.S. dollar's 11-day ...</p>
                                     </div>
-                                    <a href="http://www.hbcbroker.com/ru/news?id=%D0%BD%D0%B0-%D1%84%D0%BE%D0%BD%D0%B4%D0%BE%D0%B2%D1%8B%D1%85-%D1%80%D1%8B%D0%BD%D0%BA%D0%B0%D1%85-%D0%BF%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B0%D0%B5%D1%82%D1%81%D1%8F-%D1%80%D0%B0%D0%BB%D0%BB%D0%B8-276149" class="more">read more</a>
+                                    <a href="/news?id=gold-futures-rally-for-2nd-day-as-dollar-slides-460388" class="more">read more</a>
                                 </div>
                                 <div class="item">
                                     <h2>
-                                        <a href="http://www.hbcbroker.com/ru/news?id=%D1%80%D1%8B%D0%BD%D0%BE%D0%BA-%D0%B0%D0%BA%D1%86%D0%B8%D0%B9--%D0%BE%D0%B0%D1%8D-%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D0%BB%D1%81%D1%8F-%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%BC%2C-dfm-general-%D0%BF%D1%80%D0%B8%D0%B1%D0%B0%D0%B2%D0%B8%D0%BB-0%2C16-276138">Рынок акций  ОАЭ закрылся ростом, DFM General прибавил 0,16%</a>
+                                        <a href="/news?id=fund-managers-bullish-on-global-equities-in-february-460387">Fund managers bullish on global equities in February</a>
                                     </h2>
                                     <div class="news-info">
-                                        <em class="date">16.02.2017 11:15:00</em>
+                                        <em class="date">16/02/2017 14:45:34</em>
                                     </div>
                                     <div class="text">
-                                        <p>Фондовый рынок ОАЭ завершил торги четверга ростом за счет укрепления секторов телекоммуникаций, транспорта ...</p>
+                                        <p>  Allocations by fund managers to global equities are more than 25% higher this month than in February ...</p>
                                     </div>
-                                    <a href="http://www.hbcbroker.com/ru/news?id=%D1%80%D1%8B%D0%BD%D0%BE%D0%BA-%D0%B0%D0%BA%D1%86%D0%B8%D0%B9--%D0%BE%D0%B0%D1%8D-%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D0%BB%D1%81%D1%8F-%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%BC%2C-dfm-general-%D0%BF%D1%80%D0%B8%D0%B1%D0%B0%D0%B2%D0%B8%D0%BB-0%2C16-276138" class="more">read more</a>
+                                    <a href="/news?id=fund-managers-bullish-on-global-equities-in-february-460387" class="more">read more</a>
                                 </div>
                     </div>
                 </div>
@@ -474,9 +474,9 @@
 </div>
 
 
-<div class="hp-contactus"><div class="main-holder"><div class="colsgrid colsgrid3"><div class="col-lg-8 col-md-7"><div class="hp-ttl-xs hp-ttl-xs3 wow fadeInUp animated"><h2>Связаться <span class="color01">с нами</span></h2></div><div class="box hp-help-box wow lightSpeedIn animated"><h3>Нуждаетесь в консультации или помощи?</h3><p>HBC Broker располагает высокопрофессиональной службой поддержки. Позвоните нам прямо сейчас!</p><strong class="font-sz18"><i class="ico-support">support</i>Работаем в режиме 24/5</strong><div class="ta-center"><a class="button btn-type03 btn-font-m fl-r-lg fl-r-md mr10 reversed" href="http://www.hbcbroker.com/ru/contact-us"><span>Связаться с нами</span></a></div></div></div><div class="col-lg-4 col-md-5"><h2 class="wow fadeInDown animated">Обучающее <span class="color01">видео</span></h2><div class="box wow rotateIn animated"><div class="box-content"><div class="hp-video"><img alt="" src="img/img-hp-video.jpg"><a href="http://www.hbcbroker.com/ru/video-tutorials"><span class="btn-play">Play</span></a></div></div></div></div></div></div></div>
+<div class="hp-contactus"><div class="main-holder"><div class="colsgrid colsgrid3"><div class="col-lg-8 col-md-7"><div class="hp-ttl-xs hp-ttl-xs3 wow fadeInUp animated"><h2>Contact &amp; <span class="color01">Help</span></h2></div><div class="box hp-help-box wow lightSpeedIn animated"><h3>Need some assistance or help?</h3><p>HSBC offers world class technical and trading support. Call us today for</p><strong class="font-sz18"><i class="ico-support">support</i>24/5 SUPPORT</strong><div class="ta-center"><a class="button btn-type03 btn-font-m fl-r-lg fl-r-md mr10 reversed" href="/contact-us"><span>Contact us</span></a></div></div></div><div class="col-lg-4 col-md-5"><h2 class="wow fadeInDown animated">Video <span class="color01">tutorials</span></h2><div class="box wow rotateIn animated"><div class="box-content"><div class="hp-video"><img alt="" src="img/img-hp-video.jpg"><a href="/video-tutorials"><span class="btn-play">Play</span></a></div></div></div></div></div></div></div>
 
-<div class="hp-trading"><div class="main-holder"><h3 class="fl-l-lg fl-l-md reversed wow rotateInDownLeft animated">Интересуетесь&nbsp;финансовыми рынками?</h3><a class="button btn-font-m fl-r-lg fl-r-md reversed wow rotateInDownRight animated" href="http://my.hbcbroker.com/ru-ru/signup.aspx"><span>Начать сейчас</span></a></div></div>
+<div class="hp-trading"><div class="main-holder"><h3 class="fl-l-lg fl-l-md reversed wow rotateInDownLeft animated">New to online trading?</h3><a class="button btn-font-m fl-r-lg fl-r-md reversed wow rotateInDownRight animated" href="#"><span>Start now</span></a></div></div>
 
 
 
@@ -491,71 +491,50 @@
                 <div class="main-holder">
     <div class="colsgrid mb30">
         <div class="col-lg-6 logos wow flipInY animated">
-            <img src="img/img-logos01.png" alt="" width="66" height="64"><img src="img/img-logos02.png" alt="" width="57" height="66"><br><img src="img/img-logos03.png" alt="" width="77" height="64"><img src="img/img-logos04.png" alt="" width="69" height="80">
+            <img src="img/img-logos01.png" width="66" height="64" alt=""><img src="img/img-logos02.png" width="57" height="66" alt=""><br><img src="img/img-logos03.png" width="77" height="64" alt=""><img src="img/img-logos04.png" width="69" height="80" alt="">
         </div>
         <div class="col-lg-6">
             <div class="subscribe ml35 reversed  wow flipInX animated">
                 <h3>Want to get the latest updates?</h3>
-<form action="/ru/Home/SubscribeEmail" class="form" id="subscribeForm" method="post" role="form">                    <fieldset>
+<form action="/Home/SubscribeEmail" class="form" id="subscribeForm" method="post" role="form">                    <fieldset>
                         <div class="formset">
-                            <input data-val="true" data-val-localizedemail="Please re-enter Email" data-val-localizedemail-otherpropertyname="ProjectManager" data-val-localizedrequired="Please re-enter Email" data-val-localizedrequired-otherpropertyname="ProjectManager" id="SubscribeEmail" name="SubscribeEmail" placeholder="Write your email here" type="text">
-                            <span class="error"><span class="field-validation-valid" data-valmsg-for="SubscribeEmail" data-valmsg-replace="true"></span></span>
-                            <input class="hidden-xs" value="Subscribe" type="submit">
-                            <input class="hidden-lg hidden-md hidden-sm" value="Ok" type="submit">
+                            <input data-val="true" data-val-localizedemail="Please re-enter Email" data-val-localizedemail-otherpropertyname="ProjectManager" data-val-localizedrequired="Please re-enter Email" data-val-localizedrequired-otherpropertyname="ProjectManager" id="SubscribeEmail" name="SubscribeEmail" placeholder="Write your email here" type="text" value="">
+                            <span class="error"><span class="field-validation-valid" data-valmsg-for="SubscribeEmail" data-valmsg-replace="true"></span></span> 
+                            <input type="submit" class="hidden-xs" value="Subscribe">
+                            <input type="submit" class="hidden-lg hidden-md hidden-sm" value="Ok">
                         </div>
                     </fieldset>
 </form>            </div>
         </div>
     </div>
 </div>
-                <div class="risk-warning wow fadeInLeft animated"><div class="main-holder ta-center">Risk
- Warning: Forex and Binary Options Trading involve a significant risk to
- your invested capital. Please read and ensure you fully understand our
-Risk Disclosure.</div></div>
+                <div class="risk-warning wow fadeInLeft animated"><div class="main-holder ta-center">Risk Warning: Forex and Binary Options Trading involve a significant risk to your invested capital. Please read and ensure you fully understand our Risk Disclosure.</div></div>
                 <div class="footer-area">
                     <div class="main-holder">
                         <div class="footer-nav wow zoomInDown animated">
-                            <ul><li><a href="http://www.hbcbroker.com/ru/#">Торговля</a><ul><li><a href="https://binary.hbcbroker.com/">Binary Platform</a></li><li><a href="https://webtrader.hbcbroker.com/">Forex Platform</a></li></ul></li><li><a href="http://www.hbcbroker.com/ru/how-to-trade">Руководство</a><ul><li><a href="http://www.hbcbroker.com/ru/make-a-deposit">Пополнение торгового счета</a></li><li><a href="http://www.hbcbroker.com/ru/make-a-withdrawal">Вывод средств</a></li><li><a href="http://www.hbcbroker.com/ru/trading-instruments">Торговые инструменты</a></li><li><a href="http://www.hbcbroker.com/ru/option-types">Типы опционов</a></li><li><a href="http://www.hbcbroker.com/ru/trading-account-types">Виды торговых счетов</a></li><li><a href="http://www.hbcbroker.com/ru/mobile-trading">Мобильная торговля</a></li></ul></li><li><a href="http://www.hbcbroker.com/ru/daily-news">Новости</a><ul><li><a href="http://www.hbcbroker.com/ru/technical-analysis">Технический анализ</a></li><li><a href="http://www.hbcbroker.com/ru/economic-calendar">Экономический календарь</a></li><li><a href="http://www.hbcbroker.com/ru/live-air">Прямой эфир</a></li><li><a href="http://www.hbcbroker.com/ru/news">Ежедневные новости</a></li></ul></li><li><a href="http://www.hbcbroker.com/ru/education-center">Образовательный центр</a><ul><li><a href="http://www.hbcbroker.com/ru/glossary">Глоссарий</a></li><li><a href="http://www.hbcbroker.com/ru/webinars">Вебинары</a></li><li><a href="http://www.hbcbroker.com/ru/video-tutorials">Видеоуроки</a></li><li><a href="http://www.hbcbroker.com/ru/trading-for-beginners">Начинающему трейдеру</a></li></ul></li><li><a href="http://www.hbcbroker.com/ru/about-us">О компании</a><ul><li><a href="http://www.hbcbroker.com/ru/mission">История и миссия компании</a></li><li><a href="http://www.hbcbroker.com/ru/terms-conditions">Условия и соглашения</a></li><li><a href="http://www.hbcbroker.com/ru/contact-us">Контакты</a></li><li><a href="http://www.hbcbroker.com/ru/kyc-policy">KYC Policy</a></li><li><a href="http://www.hbcbroker.com/ru/aml-policy">AML Policy</a></li><li><a href="http://www.hbcbroker.com/Content/Images/Vanuatu-license.pdf" target="_blank">Регуляция</a></li></ul></li></ul>
+                            <ul><li><a href="/#">Trading</a><ul><li><a href="https://binary.hbcbroker.com/">Binary Platform</a></li><li><a href="https://webtrader.hbcbroker.com/">Forex Platform</a></li></ul></li><li><a href="/how-to-trade">How To Trade</a><ul><li><a href="/make-a-deposit">Make A Deposit</a></li><li><a href="/make-a-withdrawal">Make A Withdrawal</a></li><li><a href="/trading-instruments">Trading Instruments</a></li><li><a href="/option-types">Option Types</a></li><li><a href="/trading-account-types">Trading Account Types </a></li><li><a href="/mobile-trading">Mobile trading</a></li></ul></li><li><a href="/daily-news">News</a><ul><li><a href="/technical-analysis">Technical analysis</a></li><li><a href="/economic-calendar">Economic Calendar</a></li><li><a href="/live-air">Live air</a></li><li><a href="/news">Daily news</a></li></ul></li><li><a href="/education-center">Education center</a><ul><li><a href="/glossary">Glossary</a></li><li><a href="/webinars"> Webinars</a></li><li><a href="/video-tutorials">Video tutorials</a></li><li><a href="/trading-for-beginners">Trading for Beginners</a></li></ul></li><li><a href="/about-us">About us</a><ul><li><a href="/mission">History, Mission & Vision</a></li><li><a href="/terms-conditions">Terms and Conditions</a></li><li><a href="/contact-us">Contact Us</a></li><li><a href="/kyc-policy">KYC Policy</a></li><li><a href="/aml-policy">AML Policy</a></li><li><a href="http://www.hbcbroker.com/Content/Images/Vanuatu-license.pdf" target="_blank">Regulation</a></li></ul></li></ul>
                         </div>
                         <span class="line mb30 hidden-sm hidden-xs">&nbsp;</span>
                     </div>
-                    <div class="f-row hidden-lg wow zoomInRight animated"><div class="main-holder"><div class="social fl-r-lg reversed ta-center"><a class="gp" href="#">Google Plus</a><a class="tw" href="#">Twitter</a><a class="in" href="#">LinkedIn</a><a class="fb" href="#">Facebook</a></div><div class="f-links"><ul><li><a href="http://www.hbcbroker.com/ru/privacy-policy">Privacy Policy</a></li><li><a href="http://www.hbcbroker.com/ru/terms-conditions">Terms and Conditions</a>.</li><br><li><span>Copyright&nbsp;© 2016 hbcbroker.com все права защищены.</span></li></ul></div></div></div><div class="main-holder"><div class="footer-text wow fadeInDown animated"><p><strong>Уведомление о рисках: </strong>работая
- на валютных рынках, убедитесь в полной мере, что вы осознаете риски
-торговли с использованием кредитного плеча, и что вы имеете достаточный
-уровень подготовки.</p><p><strong>Легальная информация:</strong> hbcbroker.com является торговой маркой компании MPG PARTNERS LP.</p><p><strong>Услуги оплаты предоставляются:</strong> MPG PARTNERS LP - 15 Yosif Stoyanov St., 9000 Varna, Bulgaria<br><strong>Сайт разработан компанией:</strong>&nbsp;
- &nbsp;MPG INVEST LTD, registration number&nbsp;14 628, First Floor
-B&amp;P House, Kumul Highway (P.O. Box 240), Port Vila, Vanuatu<br><strong>Сайт регулируется компанией:</strong>&nbsp;MPG
- INVEST LTD,&nbsp;регистрационный номер 14 628,&nbsp;First Floor B&amp;P
- House, Kumul Highway (P.O. Box 240), Port Vila, Vanuatu, <a href="http://www.hbcbroker.com/Content/Images/Vanuatu-license.pdf">регуляция</a></p></div></div>
+                    <div class="f-row hidden-lg wow zoomInRight animated"><div class="main-holder"><div class="social fl-r-lg reversed ta-center"><a class="gp" href="#">Google Plus</a><a class="tw" href="#">Twitter</a><a class="in" href="#">LinkedIn</a><a class="fb" href="#">Facebook</a></div><div class="f-links"><ul><li><a href="privacy-policy">Privacy Policy</a></li><li><a href="terms-conditions">Terms and Conditions</a>.</li><br><li><span>Copyright&nbsp;&copy; 2016 hbcbroker.com All rights reserved.</span></li></ul></div></div></div><div class="main-holder"><div class="footer-text wow fadeInDown animated"><p><strong>Risk Warning</strong>: Forex and Binary Options&nbsp;Trading involves significant risk to your invested capital. Please read and ensure you fully understand our Risk Disclosure.</p><p><strong>Legal</strong>: hbcbroker.com is a trading name of:</p><p><strong>Payment services provided by:</strong>&nbsp;MPG PARTNERS LP-15 Yosif Stoyanov st., 9000 Varna, Bulgaria<br><strong>Website owned and powered by:</strong>&nbsp; &nbsp;MPG INVEST LTD, registration number&nbsp;14 628, First Floor B&amp;P House, Kumul Highway (P.O. Box 240), Port Vila, Vanuatu<br><strong>Website is regulated by:</strong>&nbsp;MPG INVEST LTD, registration number&nbsp;14 628, First Floor B&amp;P House, Kumul Highway (P.O. Box 240), Port Vila, Vanuatu, <a href="http://www.hbcbroker.com/Content/Images/Vanuatu-license.pdf">regulation</a></p><p>&nbsp;</p></div></div>
                 </div>
-                <div class="f-row hidden-md hidden-sm hidden-xs"><div class="main-holder"><div class="social fl-r-lg reversed ta-center wow rotateInDownRight animated"><a class="gp" href="https://plus.google.com/u/1/116432757520246151348?hl=en" target="_blank">Google Plus</a><a class="tw" href="https://twitter.com/HbcBroker" target="_blank">Twitter</a><a class="fb" href="https://www.facebook.com/profile.php?id=100011950140368" target="_blank">Facebook</a></div><div class="f-links fl-l-lg reversed ta-center wow rotateInDownLeft animated"><ul><li><span>Copyright&nbsp;© 2016 hbcbroker.com все права защищены.</span></li><li><a href="http://www.hbcbroker.com/ru/privacy-policy">Политика Конфиденциальности</a></li><li><a href="http://www.hbcbroker.com/ru/terms-conditions">Условия и соглашения</a>.</li></ul></div></div></div>
+                <div class="f-row hidden-md hidden-sm hidden-xs"><div class="main-holder"><div class="social fl-r-lg reversed ta-center wow rotateInDownRight animated"><a class="gp" href="https://plus.google.com/u/1/116432757520246151348?hl=en" target="_blank">Google Plus</a><a class="tw" href="https://twitter.com/HbcBroker" target="_blank">Twitter</a><a class="fb" href="https://www.facebook.com/profile.php?id=100011950140368" target="_blank">Facebook</a></div><div class="f-links fl-l-lg reversed ta-center wow rotateInDownLeft animated"><ul><li><span>Copyright&nbsp;&copy; 2016 hbcbroker.com All rights reserved.</span></li><li><a href="privacy-policy">Privacy Policy</a></li><li><a href="terms-conditions">Terms and Conditions</a>.</li></ul></div></div></div>
             </div>
         </div>
     </div>
 </footer>
 
     </div>
-
+    
 <div class="popup-loading popup" data-static="true" id="popup-loading"><img alt="" src="img/HBC-loader.gif"></div>
 
-
-
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/wow.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-
-<script src="js/jquery_004.js"></script>
-<script src="js/main-home.js"></script>
-
-<script src="js/jquery_003.js"></script>
-<script src="js/jquery_002.js"></script>
-<script src="js/jquery_006.js"></script>
-<script src="js/jquery_007.js"></script>
-<script src="js/bootstrap-select.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/jquery.validate.unobtrusive.js"></script>
+<script src="js/jquery.placeholder.min.js"></script>
+<script src="js/jquery.uniform.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
 <script src="js/registerValidation.js"></script>
-<script src="js/jquery_005.js"></script>
+<script src="js/jquery.alphanum.js"></script>
 <script src="js/loginControl.js"></script>
 <script src="js/dialingCode.js"></script>
 <script src="js/CustomMVC4Validation.js"></script>
@@ -566,11 +545,8 @@ B&amp;P House, Kumul Highway (P.O. Box 240), Port Vila, Vanuatu<br><strong>Са�
 <div id="cmspixels_body" style="display:none">
 </div>
 
+    
+    <script type="text/javascript" src="js/inline_18.js"></script>
 
-    <script type="text/javascript">
-        $("#PhoneNumber").numeric();
-    </script>
-
-
-
-</body></html>
+</body>
+</html>
